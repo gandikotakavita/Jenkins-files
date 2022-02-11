@@ -4,7 +4,7 @@ module "ec2" {
 
   region = "us-east-2"
 
-  availability_zone = "us-east-2c"
+  availability_zones = "us-east-2c"
 
   ami = "ami-0b614a5d911900a9b"
 
