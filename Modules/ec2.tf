@@ -28,15 +28,15 @@ resource "aws_instance" "ec2_pro" {
 
  }
 
- security_groups= ["${aws_security_group.Aws_Devops.name}"] 
+ security_groups= ["${aws_security_group.Aws_Devops83.name}"] 
 
  }
 
 
 
- resource "aws_security_group" "Aws_Devops" {
+ resource "aws_security_group" "Aws_Devops83" {
 
- name="Aws_Devops"
+ name="Aws_Devops83"
 
 
 ingress {
